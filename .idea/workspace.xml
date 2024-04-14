@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85b4b2be-afc0-483e-858e-5763a878fe90" name="Changes" comment="Third Task">
+    <list default="true" id="85b4b2be-afc0-483e-858e-5763a878fe90" name="Changes" comment="Four Task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java" afterDir="false" />
     </list>
@@ -28,6 +28,10 @@
     "accountId": "b93f5f26-497c-4b86-9127-c1a350a3129d"
   }
 }]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,7 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.HomeApp.executor": "Run",
+    "Application.HomeApp.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -95,7 +99,7 @@
       <workItem from="1713088858302" duration="105000" />
       <workItem from="1713088972954" duration="1210000" />
       <workItem from="1713090351654" duration="284000" />
-      <workItem from="1713090779860" duration="2990000" />
+      <workItem from="1713090779860" duration="4917000" />
     </task>
     <task id="LOCAL-00001" summary="First Task">
       <option name="closed" value="true" />
@@ -121,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713092943251</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Four Task">
+      <option name="closed" value="true" />
+      <created>1713094136037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713094136037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +143,22 @@
     <MESSAGE value="First Task" />
     <MESSAGE value="Second Task" />
     <MESSAGE value="Third Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third Task" />
+    <MESSAGE value="Four Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Four Task" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

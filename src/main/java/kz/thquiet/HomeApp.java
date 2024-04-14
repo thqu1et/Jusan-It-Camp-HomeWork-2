@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class HomeApp {
     static Scanner sc = new Scanner(System.in);
     public static void main( String[] args ) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println( "Hello World!" );
         System.out.println("---------------------------");
         arrayFirstTask();
         System.out.println();
@@ -18,6 +16,7 @@ public class HomeApp {
         System.out.println();
         System.out.println("---------------------------");
         arrayFourthTask();
+        arrayFifthTask();
     }
 
     public static void arrayFirstTask(){
@@ -86,5 +85,23 @@ public class HomeApp {
         }
     }
 
+    public static void arrayFifthTask(){
+        int[] array = {1,5,3,2,11,4,2,5,4,8,9,1};
+        for (int i = 0; i < array.length-1; i++) {
+            for (int j = 0; j < array.length-1; j++) {
+                int temp ;
+                if(array[j] > array[j+1]){
+                    temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+        for(int arrays : array){
+            System.out.print(arrays + " ");
+        }
 
+        System.out.println(array[1]);
+        System.out.println(array[array.length-1]);
+    }
 }
