@@ -1,9 +1,19 @@
 package kz.thquiet;
+
+import java.util.Scanner;
+
 public class HomeApp {
+    static Scanner sc = new Scanner(System.in);
     public static void main( String[] args ) {
+        Scanner sc = new Scanner(System.in);
         System.out.println( "Hello World!" );
         System.out.println("---------------------------");
         arrayFirstTask();
+        System.out.println();
+        System.out.println("---------------------------");
+        arraySecondTask();
+        System.out.println();
+        System.out.println("---------------------------");
     }
 
     public static void arrayFirstTask(){
@@ -21,6 +31,17 @@ public class HomeApp {
        for(int arrays : array){
            System.out.print(arrays+" ");
        }
+    }
+
+    public static void arraySecondTask(){
+        int[] array = new int[8];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = sc.nextInt();
+        }
+        sc.close();
+        for(int arrays : array){
+            System.out.print(arrays+" ");
+        }
     }
 
 }

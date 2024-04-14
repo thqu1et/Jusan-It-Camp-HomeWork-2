@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85b4b2be-afc0-483e-858e-5763a878fe90" name="Changes" comment="">
+    <list default="true" id="85b4b2be-afc0-483e-858e-5763a878fe90" name="Changes" comment="First Task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java" afterDir="false" />
     </list>
@@ -16,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "thqu1et"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:thqu1et/Jusan-It-Camp-HomeWork-2.git",
+    "accountId": "b93f5f26-497c-4b86-9127-c1a350a3129d"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -30,7 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.HomeApp.executor": "Run",
+    "Application.HomeApp.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,7 +79,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-jbrsdk-17.0.9-4caba194b151-e79a1401" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -80,11 +93,26 @@
       <option name="presentableId" value="Default" />
       <updated>1713088857031</updated>
       <workItem from="1713088858302" duration="105000" />
-      <workItem from="1713088972954" duration="642000" />
+      <workItem from="1713088972954" duration="1210000" />
+      <workItem from="1713090351654" duration="284000" />
+      <workItem from="1713090779860" duration="1386000" />
     </task>
+    <task id="LOCAL-00001" summary="First Task">
+      <option name="closed" value="true" />
+      <created>1713090108172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713090108172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Task" />
   </component>
 </project>
