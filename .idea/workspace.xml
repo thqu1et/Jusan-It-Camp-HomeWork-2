@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85b4b2be-afc0-483e-858e-5763a878fe90" name="Changes" comment="First Task">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="85b4b2be-afc0-483e-858e-5763a878fe90" name="Changes" comment="Second Task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.HomeApp.executor": "Debug",
+    "Application.HomeApp.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -95,7 +92,7 @@
       <workItem from="1713088858302" duration="105000" />
       <workItem from="1713088972954" duration="1210000" />
       <workItem from="1713090351654" duration="284000" />
-      <workItem from="1713090779860" duration="1386000" />
+      <workItem from="1713090779860" duration="1785000" />
     </task>
     <task id="LOCAL-00001" summary="First Task">
       <option name="closed" value="true" />
@@ -105,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713090108172</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Task">
+      <option name="closed" value="true" />
+      <created>1713092597161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713092597161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Task" />
+    <MESSAGE value="Second Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Task" />
   </component>
 </project>

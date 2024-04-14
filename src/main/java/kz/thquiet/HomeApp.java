@@ -14,6 +14,7 @@ public class HomeApp {
         arraySecondTask();
         System.out.println();
         System.out.println("---------------------------");
+        arrayThirdTask();
     }
 
     public static void arrayFirstTask(){
@@ -44,4 +45,15 @@ public class HomeApp {
         }
     }
 
+    public static void arrayThirdTask(){
+        int[] array = {1,5,3,2,11,4,2,5,4,8,9,1};
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < 6){
+                array[i] = array[i] * 2;
+            }
+        }
+        for(int arrays : array){
+            System.out.print(arrays+" ");
+        }
+    }
 }
