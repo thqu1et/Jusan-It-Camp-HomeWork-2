@@ -15,6 +15,9 @@ public class HomeApp {
         System.out.println();
         System.out.println("---------------------------");
         arrayThirdTask();
+        System.out.println();
+        System.out.println("---------------------------");
+        arrayFourthTask();
     }
 
     public static void arrayFirstTask(){
@@ -56,4 +59,32 @@ public class HomeApp {
             System.out.print(arrays+" ");
         }
     }
+
+    public static void arrayFourthTask(){
+        int size = sc.nextInt();
+        int[][] array = new int[size][size];
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                array[i][j] = sc.nextInt();
+            }
+        }
+
+        if (array.length != array[0].length) {
+            System.out.println("Array is not square");
+            return;
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            array[i][i] = 1;
+        }
+
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
 }
