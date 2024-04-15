@@ -5,18 +5,20 @@ import java.util.Scanner;
 public class HomeApp {
     static Scanner sc = new Scanner(System.in);
     public static void main( String[] args ) {
-        System.out.println("---------------------------");
-        arrayFirstTask();
-        System.out.println();
-        System.out.println("---------------------------");
-        arraySecondTask();
-        System.out.println();
-        System.out.println("---------------------------");
-        arrayThirdTask();
-        System.out.println();
-        System.out.println("---------------------------");
-        arrayFourthTask();
-        arrayFifthTask();
+//        System.out.println("---------------------------");
+//        arrayFirstTask();
+//        System.out.println();
+//        System.out.println("---------------------------");
+//        arraySecondTask();
+//        System.out.println();
+//        System.out.println("---------------------------");
+//        arrayThirdTask();
+//        System.out.println();
+//        System.out.println("---------------------------");
+//        arrayFourthTask();
+//        arrayFifthTask();
+        int[] array = {1,5,3,2,11,4,2,5,4,8,9,1};
+        System.out.println(arraySixthTask(array));
     }
 
     public static void arrayFirstTask(){
@@ -103,5 +105,27 @@ public class HomeApp {
 
         System.out.println(array[1]);
         System.out.println(array[array.length-1]);
+    }
+
+    public static boolean arraySixthTask(int[] array){
+        int sum  = 0 ;
+        int sum2 = 0;
+        int middle = array.length/2;
+        for (int i = 0; i < middle; i++) {
+            sum += array[i];
+        }
+        for (int i = middle; i < array.length; i++) {
+            sum2 += array[i];
+        }
+        if (sum == sum2){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    public static int[] arraySeventhTask(int[] array , int n){
+
+        return array;
     }
 }
