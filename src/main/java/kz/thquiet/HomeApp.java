@@ -122,6 +122,11 @@ public class HomeApp {
         for (int i = middle; i < array.length; i++) {
             sum2 += array[i];
         }
+
+        if(sum%2 !=0) {
+            return false;
+        }
+
         if (sum == sum2){
             return true;
         }else {
