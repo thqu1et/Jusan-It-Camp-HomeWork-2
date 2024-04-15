@@ -81,6 +81,7 @@ public class HomeApp {
 
         for (int i = 0; i < array.length; i++) {
             array[i][i] = 1;
+            array[i][array.length - i - 1] = 1;
         }
 
         for (int i = 0; i < size; i++) {

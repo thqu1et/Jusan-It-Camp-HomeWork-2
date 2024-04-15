@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85b4b2be-afc0-483e-858e-5763a878fe90" name="Changes" comment="sixth Task">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/thquiet/HomeApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="85b4b2be-afc0-483e-858e-5763a878fe90" name="Changes" comment="seventh Task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +96,7 @@
       <workItem from="1713088858302" duration="105000" />
       <workItem from="1713088972954" duration="1210000" />
       <workItem from="1713090351654" duration="284000" />
-      <workItem from="1713090779860" duration="8998000" />
+      <workItem from="1713090779860" duration="9347000" />
     </task>
     <task id="LOCAL-00001" summary="First Task">
       <option name="closed" value="true" />
@@ -149,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713176600518</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="seventh Task">
+      <option name="closed" value="true" />
+      <created>1713186192393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186192393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="seventh Task">
+      <option name="closed" value="true" />
+      <created>1713186436236</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186436236</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +175,8 @@
     <MESSAGE value="Four Task" />
     <MESSAGE value="fifth Task" />
     <MESSAGE value="sixth Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="sixth Task" />
+    <MESSAGE value="seventh Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="seventh Task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
