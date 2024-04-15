@@ -5,20 +5,24 @@ import java.util.Scanner;
 public class HomeApp {
     static Scanner sc = new Scanner(System.in);
     public static void main( String[] args ) {
-//        System.out.println("---------------------------");
-//        arrayFirstTask();
-//        System.out.println();
-//        System.out.println("---------------------------");
-//        arraySecondTask();
-//        System.out.println();
-//        System.out.println("---------------------------");
-//        arrayThirdTask();
-//        System.out.println();
-//        System.out.println("---------------------------");
-//        arrayFourthTask();
-//        arrayFifthTask();
+        System.out.println("---------------------------");
+        arrayFirstTask();
+        System.out.println();
+        System.out.println("---------------------------");
+        arraySecondTask();
+        System.out.println();
+        System.out.println("---------------------------");
+        arrayThirdTask();
+        System.out.println();
+        System.out.println("---------------------------");
+        arrayFourthTask();
+        arrayFifthTask();
         int[] array = {1,5,3,2,11,4,2,5,4,8,9,1};
         System.out.println(arraySixthTask(array));
+        arraySeventhTask(array , -3);
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
     }
 
     public static void arrayFirstTask(){
@@ -124,8 +128,23 @@ public class HomeApp {
         }
     }
 
-    public static int[] arraySeventhTask(int[] array , int n){
-
-        return array;
+    public static void arraySeventhTask(int[] array , int n){
+        if (n > 0){
+            for (int i = 0; i < n; i++) {
+                int k = array[array.length-1];
+                for (int j = array.length-1; j > 0  ; j--) {
+                    array[j] = array[j-1];
+                }
+                array[0] = k;
+            }
+        }else{
+            for (int i = 0; i > n; i--) {
+                int k = array[0];
+                for (int j = 1; j < n; j++) {
+                    array[j-1] = array[j];
+                }
+                array[array.length-1] = k;
+            }
+        }
     }
 }
